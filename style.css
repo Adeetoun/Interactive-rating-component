@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.google.com/specimen/Overpass");
+body{
+    background-color:  hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.main-container, .submit{
+    background: hsl(213, 19%, 18%);
+    padding:1.5rem;
+    max-width: 400px;
+}
+.main-container{
+    padding: 20px;
+    margin:10px;
+    margin: auto;
+    color: #fff;
+    width: 30%;
+}
+h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+p{
+    font-size: small;
+    margin-top: 15px;
+}
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ul li button{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: hwb(210 17% 82%);
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+ul li button:hover{
+    background: hsl(25, 97%, 53%);
+}
+ul li button:focus{
+    background:grey;
+}
+.btn{
+    background: hsl(25, 97%, 53%);
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    justify-content: center;
+    letter-spacing: 0.1rem;
+}
+.btn:hover{
+    background: #fff;
+    color:hsl(25, 97%, 53%);
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 30%;
+}
+.submit img{
+    display: block;
+    width: 150px;
+    justify-content: center;
+}
+h5{
+    background:hsl(213, 20%, 22%);
+    color:hsl(25, 97%, 53%);
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.hidden{
+    display: none;
+}
