@@ -64,7 +64,8 @@ ul li button:focus{
 .btn{
     background: hsl(25, 97%, 53%);
     color: #fff;
-    padding: 0 5px 0 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     width: 100%;
     margin-top: 15px;
